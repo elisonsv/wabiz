@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
 /*
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
