@@ -34,7 +34,17 @@
   });
 </script>
           <button name="perfil-answer" id="perfil-2" class="btn">Trabalho em casa</button>
+		<script type="text/javascript">
+  $('#$perfil-2').click(function() {
+    fbq('trackCustom', 'Casa');
+  });
+</script>
           <button name="perfil-answer" id="perfil-0" class="btn">Ainda não tenho um delivery</button>
+		<script type="text/javascript">
+  $('#$perfil-0').click(function() {
+    fbq('trackCustom', 'SemDelivery');
+  });
+</script>
         </div>
         <div class="footer">
           <a href="javascript:;" onclick="goBack('welcome')">Voltar</a>
